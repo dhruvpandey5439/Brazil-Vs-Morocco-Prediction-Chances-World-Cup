@@ -1,22 +1,7 @@
-=============================================================
   World Cup Match Predictor  |  Brazil vs Morocco
-  Author  : [Your Name]
-  Date    : 2026
+  Author  : Dhruv Pandey
+  Date    : June 2026
   Dataset : github.com/martj42/international_results
-=============================================================
-
-Pipeline
---------
-  1. Ingest open-source international match data (44 000+ fixtures)
-  2. Filter and parse per-team match history into a DataFrame
-  3. Engineer features: win rate, goal differential, recent form,
-     World Cup form, home advantage
-  4. Scale features with StandardScaler (zero mean, unit variance)
-  5. Train a Logistic Regression classifier per team
-  6. Validate with 5-fold stratified cross-validation
-  7. Blend team-perspective probabilities and output prediction
-  8. Produce a full 10-panel visual dashboard
-"""
 
 import pandas as pd
 import numpy as np
