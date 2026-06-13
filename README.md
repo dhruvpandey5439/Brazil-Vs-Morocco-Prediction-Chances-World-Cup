@@ -1,6 +1,6 @@
 # Brazil vs Morocco — World Cup Match Predictor
 
-A machine learning pipeline that predicts the outcome of the **Brazil vs Morocco** 2026 FIFA World Cup match using historical international football data, logistic regression, and statistical feature engineering — inspired by quantitative sports modelling techniques used in financial prediction systems.
+This is a machine learning pipeline that predicts the outcome of the **Brazil vs Morocco** 2026 FIFA World Cup match using historical international football data, logistic regression, and statistical feature engineering — inspired by quantitative sports modelling techniques used in financial prediction systems, and quantatative finance modeling.
 
 ---
 
@@ -137,8 +137,8 @@ The dashboard will open on screen and be saved to `charts/dashboard.png`.
 
 | Library | Purpose |
 |---|---|
-| `pandas` | Data ingestion and DataFrame manipulation |
-| `numpy` | Numerical operations |
+| `pandas` | Data ingestion |
+| `numpy` | Numerical calculations |
 | `scikit-learn` | StandardScaler, LogisticRegression, cross-validation |
 | `matplotlib` | Dashboard visualisation |
 | `seaborn` | Heatmap and statistical plots |
@@ -147,8 +147,10 @@ The dashboard will open on screen and be saved to `charts/dashboard.png`.
 
 ## Disclaimer
 
-This project is built for educational and portfolio purposes. Predictions are probabilistic estimates based on historical data and do not account for real-time factors such as squad fitness, tactics, or referee decisions. Football remains wonderfully unpredictable.
+This project is built for educational reasons and also because I have a passion for it. Predictions are probabilistic estimations based on historical data and do not account for real-time factors such as squad fitness, tactics, or referee decisions. Don't take this project to account for any bets or expectations of a team winning over the other, football will remain wonderfully unpredictable.
 
 ---
 
-*Built with Python and scikit-learn*
+## Reflection
+
+This was a very tedious project, as it is my first time interacting with Machine Learning, and understanding coding in a deepr level. However, with my passion and love for football, this tedious process became entertaining, and became something I found as valuable. Right as summer break started, which for me was June 3rd, I didn't waste anytime and tried to take action for something I was quite interested in for a very long time. The process was not perfect, and I became frustrated more than I can count, however I am satisfied with my project and now I am aiming to broaden this model into all teams and matches and not only Brazil and Morocco.
